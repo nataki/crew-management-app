@@ -11,10 +11,11 @@ const FilterField = ({id, label, value, onChange}: Props) => (
     <div className='filter_field'>
         <label htmlFor={id}>
             {label}
-:
+            :
             {' '}
+            <input type="text" id={id} name={id} onChange={onChange} value={value} />
         </label>
-        <input type="text" id={id} name={id} onChange={onChange} value={value} />
+
     </div>
 );
 

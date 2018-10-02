@@ -23,6 +23,7 @@ export function fetchUsersAction(){
         return fetch('https://randomuser.me/api/?nat=gb&results=5')
             .then(response => response.json())
             .then(json => dispatch(receiveUsersAction(json.results)))
+            // eslint-disable-next-line
             .catch(error => console.log)
     }
 }

@@ -1,0 +1,39 @@
+.app .header{
+    display: flex;
+}
+.app .container{
+    display: flex;
+}
+.app .container .column {
+    flex: 1;
+    padding: 20px;
+}
+
+.app .column .category_title{
+    text-align: center;
+    font-weight: bold;
+    line-height: 40px;
+}
+.user_card {
+    border: 1px solid grey;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.user_card .user_info {
+    display: flex;
+}
+.user_card .user_info .user_photo {
+    margin-right: 10px;
+    padding: 5px;
+}
+.user_card .user_info .user_name div {
+    font-size: 0.8em;
+    font-style: italic;
+    margin-top:10px;
+}
+.user_card .controls {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
